@@ -67,3 +67,4 @@ workingsets.xml
 .attach_pid*
 **/jitprof/*.js
 node_modules/
+src/ch.usi.inf.nodeprof/js/bundle.js
