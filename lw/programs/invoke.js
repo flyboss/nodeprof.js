@@ -37,3 +37,6 @@ function outer() {
     inner();
 }
 outer();
+
+let a = {}
+a.b = 'ss'

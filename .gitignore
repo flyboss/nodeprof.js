@@ -68,3 +68,4 @@ workingsets.xml
 **/jitprof/*.js
 node_modules/
 src/ch.usi.inf.nodeprof/js/bundle.js
+lw/analysis_results
