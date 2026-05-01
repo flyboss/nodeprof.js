@@ -1,0 +1,43 @@
+[
+  {
+    "typ": "Create",
+    "funName": "anon",
+    "identity": "FunNon:7",
+    "loc": "lw/easy.js@1:1:4:7"
+  },
+  {
+    "typ": "Create",
+    "funName": "foo",
+    "identity": "FunNon:11",
+    "loc": "lw/easy.js@1:1:3:2"
+  },
+  {
+    "typ": "Write",
+    "funName": "foo",
+    "identity": "FunNon:11",
+    "loc": "lw/easy.js@1:1:3:2",
+    "to": "Frm9:foo"
+  },
+  {
+    "typ": "LocRead",
+    "funName": "foo",
+    "identity": "FunNon:11",
+    "loc": "lw/easy.js@1:1:4:7",
+    "from": "Frm9:foo",
+    "curr": "Frm9",
+    "eloc": "lw/easy.js@1:1:4:7"
+  },
+  {
+    "typ": "InvokeCall",
+    "funName": "foo",
+    "identity": "FunNon:11",
+    "loc": "lw/easy.js@4:1:4:6"
+  },
+  {
+    "typ": "InvokeReturn",
+    "funName": "foo",
+    "identity": "FunNon:11",
+    "loc": "lw/easy.js@4:1:4:6",
+    "ret": null
+  }
+]

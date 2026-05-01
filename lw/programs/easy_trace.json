@@ -1,0 +1,43 @@
+[
+  {
+    "typ": "Create",
+    "funName": "anon",
+    "identity": "FunNon:7",
+    "loc": "lw/programs/easy.js@1:1:16:4"
+  },
+  {
+    "typ": "Create",
+    "funName": "vulnerable",
+    "identity": "FunNon:11",
+    "loc": "lw/programs/easy.js@5:1:10:2"
+  },
+  {
+    "typ": "Write",
+    "funName": "vulnerable",
+    "identity": "FunNon:11",
+    "loc": "lw/programs/easy.js@5:1:10:2",
+    "to": "Frm9:vulnerable"
+  },
+  {
+    "typ": "LocRead",
+    "funName": "vulnerable",
+    "identity": "FunNon:11",
+    "loc": "lw/programs/easy.js@1:1:16:4",
+    "from": "Frm9:vulnerable",
+    "curr": "Frm9",
+    "eloc": "lw/programs/easy.js@1:1:16:4"
+  },
+  {
+    "typ": "InvokeCall",
+    "funName": "vulnerable",
+    "identity": "FunNon:11",
+    "loc": "lw/programs/easy.js@13:1:16:3"
+  },
+  {
+    "typ": "InvokeReturn",
+    "funName": "vulnerable",
+    "identity": "FunNon:11",
+    "loc": "lw/programs/easy.js@13:1:16:3",
+    "ret": null
+  }
+]
